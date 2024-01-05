@@ -124,4 +124,26 @@
     transform: scale(1.05);
     opacity: 0.9;
   }
+
+  /* Add these media queries at the end of your CSS or in a separate stylesheet */
+
+  @media only screen and (max-width: 768px) {
+    .banner {
+      padding: 8px; /* Adjust the padding for smaller screens */
+    }
+
+    .text-white {
+      font-size: 1.5rem; /* Adjust the font size for smaller screens */
+    }
+
+    .text-pink-500 {
+      font-size: 1rem; /* Adjust the font size for smaller screens */
+    }
+
+    .btn-main {
+      font-size: 1rem; /* Adjust the font size for smaller screens */
+    }
+  }
+
+  /* Add more media queries as needed for other screen sizes */
 }
